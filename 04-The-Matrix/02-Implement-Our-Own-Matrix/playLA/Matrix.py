@@ -39,6 +39,6 @@ class Matrix:
         return len(self._values) , len(self._values[0])
 
     def __repr__(self):
-        return "MAtrix({})".format(self._values)
+        return "Matrix({})".format(self._values)
 
     __str__ = __repr__  # 使用相同的函数
